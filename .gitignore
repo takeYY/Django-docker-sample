@@ -1,0 +1,3 @@
+# dotenv environment varriables file
+*.env
+__pycache__
