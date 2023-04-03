@@ -1,2 +1,0 @@
-# Django_docker_test
-DjangoとDockerのコラボレーションテスト
