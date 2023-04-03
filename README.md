@@ -20,6 +20,11 @@ python3 manage.py startapp {:SOMETHING_FEATURE}
 
 ## DB のマイグレ
 
-```bash
-python3 manage.py migrate
-```
+- 作成
+  ```bash
+  python3 manage.py makemigrations
+  ```
+- 反映
+  ```bash
+  python3 manage.py migrate
+  ```
