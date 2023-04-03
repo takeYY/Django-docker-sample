@@ -1,0 +1,30 @@
+{
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.mypyArgs": [
+    "--follow-imports=silent",
+    "--ignore-missing-imports",
+    "--show-column-numbers",
+    "--no-pretty"
+  ],
+  "python.linting.lintOnSave": true,
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length=120"],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "python.linting.flake8Args": ["--ignore=E402,W503", "--max-line-length=120"],
+  "autoDocstring.docstringFormat": "numpy",
+  "plantuml.exportOutDir": "./",
+  "plantuml.exportSubFolder": false,
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "cSpell.words": ["mysite", "asgi", "runserver"],
+  "python.analysis.typeCheckingMode": "basic"
+}
