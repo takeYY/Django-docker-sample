@@ -25,6 +25,6 @@
     "editor.insertSpaces": true,
     "editor.defaultFormatter": "ms-python.python"
   },
-  "cSpell.words": ["mysite", "asgi"],
+  "cSpell.words": ["mysite", "asgi", "runserver"],
   "python.analysis.typeCheckingMode": "basic"
 }
