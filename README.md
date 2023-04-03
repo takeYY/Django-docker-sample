@@ -11,3 +11,15 @@ https://docs.djangoproject.com/ja/4.2/intro/tutorial01/
 ```bash
 python3 manage.py runserver
 ```
+
+## ディレクトリ追加
+
+```bash
+python3 manage.py startapp {:SOMETHING_FEATURE}
+```
+
+## DB のマイグレ
+
+```bash
+python3 manage.py migrate
+```
